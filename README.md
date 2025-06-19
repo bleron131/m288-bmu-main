@@ -65,7 +65,8 @@ Ergebnis: Funktioniert – die Rangliste enthält alle relevanten Informationen,
 ![image](https://github.com/user-attachments/assets/25794321-eefa-40e4-a457-b34279b60d7b)
 
 <h2>script.js</h2>
-![image](https://github.com/user-attachments/assets/8ac98f6d-a939-428d-9f31-eab56a19b14a)
+![image](https://github.com/user-attachments/assets/82d757d4-83ed-4391-8b7d-3bd5c8045065)
+
 
 <h2>words.js</h2>
 ![image](https://github.com/user-attachments/assets/367e8673-6799-4fce-89e1-268d849014e5)
