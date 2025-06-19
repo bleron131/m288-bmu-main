@@ -56,8 +56,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function createGameBoard() {
         gameBoard.style.gridTemplateColumns = `repeat(${currentWordLength}, 60px)`;
-        for (let i = 0; i < maxAttempts; i++) {
-            for (let j = 0; j < currentWordLength; j++) {
+        for (let i = 0; i <maxAttempts; i++) {
+            for (let j = 0; j <currentWordLength; j++) {
                 const box = document.createElement('div');
                 box.classList.add('letter-box');
                 box.dataset.row = i;
@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 showMessage(`Wort muss ${currentWordLength} Buchstaben haben!`, 'warning');
                 setTimeout(clearMessage, 2000);
             }
-        } else if (currentGuess.length < currentWordLength && isValidLetter(key)) {
+        } else if (currentGuess.length <currentWordLength && isValidLetter(key)) {
             currentGuess.push(key.toUpperCase());
             updateGameBoard();
         }
@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function updateGameBoard() {
-        for (let i = 0; i < currentWordLength; i++) {
+        for (let i = 0; i <currentWordLength; i++) {
             const box = gameBoard.querySelector(`[data-row="${currentRow}"][data-col="${i}"]`);
             if (box) {
                 box.textContent = currentGuess[i] || '';
@@ -147,14 +147,14 @@ document.addEventListener('DOMContentLoaded', () => {
             solutionMap[letter] = (solutionMap[letter] || 0) + 1;
         });
 
-        for (let i = 0; i < currentWordLength; i++) {
+        for (let i = 0; i <currentWordLength; i++) {
             if (guessLetters[i] === solutionLetters[i]) {
                 feedback[i] = 'correct';
                 solutionMap[guessLetters[i]]--;
             }
         }
 
-        for (let i = 0; i < currentWordLength; i++) {
+        for (let i = 0; i <currentWordLength; i++) {
             if (feedback[i] === '') {
                 if (solutionMap[guessLetters[i]] > 0) {
                     feedback[i] = 'present';
