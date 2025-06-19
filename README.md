@@ -55,7 +55,8 @@ Ergebnis: Funktioniert – die Rangliste enthält alle relevanten Informationen,
 <h1>Validator</h1>
 
 <h2>index.html</h2>
-![image](https://github.com/user-attachments/assets/ad6128f2-13a3-44af-805b-a112fa6d813e)
+![Screenshot 2025-06-19 104812](https://github.com/user-attachments/assets/40d29a2d-9294-4fe8-b2dc-806195b4da68)
+
 
 <h2>game.html</h2>
 ![image](https://github.com/user-attachments/assets/de1e52ef-c3ac-4a5a-9cbe-a86c71ea6096)
