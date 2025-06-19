@@ -70,3 +70,21 @@ Ergebnis: Funktioniert – die Rangliste enthält alle relevanten Informationen,
 <h2>words.js</h2>
 ![image](https://github.com/user-attachments/assets/367e8673-6799-4fce-89e1-268d849014e5)
 
+<h1>BBK-Kriterien</h1>
+<h2>L.1</h2>
+<h3>Die Applikation enthält ein funktionierendes Benutzer-Login mit Datenspeicherung im Local Storage.</h3>
+
+<h2>L.2</h2>
+<h3>Der Spieler kann die Spielschwierigkeit durch Auswahl der Wortlänge individuell anpassen.</h3>
+
+<h2>L.3</h2>
+<h3>Die Applikation enthält eine Echtzeit-Feedback-Funktion für falsche Wörter oder Eingaben.</h3>
+
+<h2>L.4</h2>
+<h3>Ergebnisse und Leistungen der Spieler werden gespeichert und als Rangliste visuell dargestellt.</h3>
+
+<h2>L.5</h2>
+<h3>Es liegt eine Meilensteinplanung vor.</h3>
+
+<h1>Meilensteinplanung</h1>
+![image](https://github.com/user-attachments/assets/6e482dd6-b7ae-4a03-adef-80b00119832f)
