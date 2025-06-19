@@ -30,7 +30,7 @@ const WORDS = {
 
         "wild", "wind", "witz", "wolf", "wort", "wurm", "zahn", "zart", "zeit", "zelt", "zoll", "zorn"
 
-],
+    ],
     5: [
         "abend", "apfel", "aroma", "basis", "bauch", "beton", "blume", "brief", "bruch", "buben",
         "creme", "danke", "decke", "dinge", "dreht", "durst", "ebene", "eigen", "engel",
@@ -44,35 +44,31 @@ const WORDS = {
         "papst", "party", "pause", "pegel", "piano", "pixel", "pokal", "power", "preis", "punkt",
         "puppe", "putze", "radio", "raten", "rauch", "reden", "regen", "reise", "rinde",
         "ringe", "rosen", "runde", "saite", "sauce", "schaf", "schal", "schuh", "sinne", "spass",
-        "spiel", "spitz", "sport", "start", "stein", "stern", "stock", "stier",  "sturm", "stadt", "tafel", "tante",
+        "spiel", "spitz", "sport", "start", "stein", "stern", "stock", "stier", "sturm", "stadt", "tafel", "tante",
         "taube", "tempo", "tenor", "tiger", "tisch", "titel", "trank", "trink", "tropf", "unser",
-        "vater", "vogel", "waffe", "wange", "wecke", "weine", "welle", "werke", "winde", "wirre",
-        "wolke", "zebra", "zange", "zeige", "zeile", "zitat", "zivil", "zunge", "zutat", "zwerg"
+        "vater", "vogel", "waffe", "wange", "wecke", "weine", "welle", "werke", "winde",
+        "wolke", "zebra", "zange", "zeige", "zeile", "zitat", "zivil", "zunge", "zutat", "zwerg", "katze", "virus", "armee"
     ],
     6: [
-        "garten", "schule", "kirche", "bruecke", "strasse", "fenster", "spiegel", "schrank", "teppich", "vorhang",
-        "computer", "telefon", "internet", "programm", "software", "hardware", "netzwerk", "server", "monitor", "tastatur",
-        "mauspad", "drucker", "scanner", "kamera", "mikrofon", "lautspr", "bildsch", "festpl", "prozess", "speicher",
-        "energie", "strom", "benzin", "diesel", "wasser", "abfall", "recycl", "umwelt", "klima", "wetter",
-        "gesund", "kranken", "doktor", "apothe", "medizi", "therap", "patient", "pflege", "krankh", "symptom",
-        "geburt", "kindhei", "jugend", "erwach", "alter", "familie", "ehepar", "geschwi", "eltern", "kinder",
-        "grossel", "enkelki", "verwand", "nachbar", "kollege", "chef", "angeste", "kunde", "verkaeu", "dienstl",
-        "politik", "regieru", "parlame", "demokra", "wahl", "partei", "gesetz", "gericht", "polizei", "armee",
-        "wirtschaft", "finanze", "handel", "markt", "firma", "geschaef", "produkt", "dienstl", "werbung", "verkauf",
-        "kultur", "geschic", "traditi", "braucht", "kunst", "literat", "theater", "kino", "musik", "himmel",
+        "garten", "schule", "kirche",
+        "server", "kamera", "drucke", "tasten",
+        "stroms", "benzin", "diesel", "wasser", "abfall",
+        "gesund", "doktor", "pflege", "impfen",
+        "geburt", "jugend", "eltern", "kinder", "freund", "tanten", "neffen",
+        "kunden", "handel", "verlag", "preise", "rabatt",
+        "gesetz", "wahlen", "streik",
+        "firmen", "banken", "budget", "export", "import",
+        "kultur", "museum", "lesung", "themen", "autors"
     ],
     7: [
-        "abenteuer", "bibliothek", "universum", "galaxis", "planet", "stern", "komet", "meteor", "astronaut", "teleskop",
-        "mikroskop", "wissenschaft", "forschung", "experiment", "entdeckung", "erfindung", "technologie", "innovation", "roboter", "kuenstlich",
-        "intelligenz", "algorithmus", "datenbank", "netzwerk", "sicherheit", "verschluesselung", "authentifizierung", "autorisierung", "protokoll", "kommunikation",
-        "information", "wissen", "bildung", "lernen", "studium", "pruefung", "diplom", "zertifikat", "karriere", "beruf",
-        "unternehmen", "management", "strategie", "planung", "organisation", "produktion", "qualitaet", "marketing", "vertrieb", "kundenservice",
-        "finanzen", "investition", "budget", "analyse", "prognose", "risiko", "gewinn", "verlust", "steuer", "bank",
-        "versicheru", "immobilie", "miete", "kauf", "verkauf", "vertrag", "recht", "gesetz", "gerechtigk", "verbrechen",
-        "strafe", "gefaengnis", "freiheit", "gleichheit", "toleranz", "respekt", "vertrauen", "verantwortung", "pflicht", "ethik",
-        "philosophie", "religion", "spiritualitaet", "meditation", "yoga", "gesundheit", "ernaehrung", "fitness", "sportart", "wettkampf",
-        "olympiade", "meistersc", "rekord", "training", "wettbewerb", "erfolg", "misserfolg", "motivation", "inspiration", "kreativitaet"
+        "fenster", "schrank", "spiegel", "spritze", "teppich", "mauspad", "vorhang",
+         "kometen", 
+        "studium", "diplome", "berufet",
+        "budgete", "analyse", "prognos", "risiken", "verlust", "steuern",
+        "vertrag", "gesetzte", "strafen", "freiheit", "respekt", "pflicht",
+        "fitness", "sporten", "training", "rekorde", "erfolge", "motivat"
     ],
+
     8: [
         "architektur", "ingenieurwesen", "mathematik", "physiker", "chemiker", "biologie", "geologie", "astronomie", "psychologie", "soziologie",
         "anthropologie", "archaeologie", "geschichte", "geographie", "literatur", "linguistik", "philosophie", "theologie", "kunstgesch", "musikwiss",
