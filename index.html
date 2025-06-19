@@ -1,39 +1,48 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wordle Game</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wordly</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
+  <!-- Spiel-Seite -->
+  <div id="game-screen">
     <div class="game-container">
-        <h1>Wordle</h1>
-        <div class="settings">
-            <label for="word-length">Wortlänge:</label>
-            <select id="word-length">
-                <option value="4">4</option>
-                <option value="5" selected>5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-            </select>
-            <button id="start-game">Neues Spiel</button>
-        </div>
-        <div id="game-board"></div>
-        <div id="keyboard"></div>
-        <div id="leaderboard" class="leaderboard hidden">
-            <h3>🏆 Rangliste</h3>
-            <div id="leaderboard-list"></div>
-            <button id="close-leaderboard">Schließen</button>
-        </div>
-        <div class="game-controls">
-            <button id="show-leaderboard">🏆 Rangliste</button>
-            <button id="reset-scores">🗑️ Punkte zurücksetzen</button>
-        </div>
-        <p id="message"></p>
+      <h1>Wordly</h1>
+
+      <div class="settings">
+        <label for="word-length">Wortlänge:</label>
+        <select id="word-length">
+          <option value="4">4</option>
+          <option value="5" selected>5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+        </select>
+        <button id="start-game">Neues Spiel</button>
+      </div>
+
+      <div id="game-board"></div>
+      <div id="keyboard"></div>
+
+      <div class="game-controls">
+        <button id="show-leaderboard">🏆 Rangliste</button>
+      </div>
+
+      <p id="message"></p>
+
+      <div id="leaderboard" class="leaderboard hidden">
+        <h3>🏆 Rangliste</h3>
+        <div id="leaderboard-list"></div>
+        <button id="close-leaderboard">Schließen</button>
+      </div>
     </div>
-    <script src="words.js"></script>
-    <script src="script.js"></script>
+  </div>
+
+  <script src="words.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
